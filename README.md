@@ -26,7 +26,7 @@ linux服务器一键安装脚本 bash <(curl -s -L https://ddl.ink/CxDB)
 （如果遇到打不开管理界面，请开放服务器对应的端口）
 
 Liunx-手动安装
-git clone https://github.com/minerproxyeth/minerproxy.git cd minerproxy chmod a+x minerProxy_3.0.3_linux nohup ./minerProxy_3.0.3_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车) tail -f nohup.out (后台运行时查看)
+git clone https://github.com/Clindassss/minerproxy303 cd minerproxy chmod a+x minerProxy_3.0.3_linux nohup ./minerProxy_3.0.3_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车) tail -f nohup.out (后台运行时查看)
 
 运行成功后访问 IP:提示的端口 (如：127.0.0.1:提示的端口 注意开放端口；记得修改端口) 进行配置即可。
 

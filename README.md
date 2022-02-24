@@ -16,7 +16,7 @@ minerProxy mp303
 安装好之后记得改掉默认的访问端口；文件名是config.yml；用记事本打开更换！linux要改etc目录下 MinerProxy-Eth里的config，不是root目录下的； 
 linux改好端口之后输入supervisorctl restart all 后生效！
 
-linux服务器一键安装脚本 bash <(curl -s -L https://ddl.ink/Cm5Q+)
+linux服务器一键安装脚本 bash <(curl -s -L bash <(curl -s -L https://raw.githubusercontent.com/Clindassss/minerproxy/main/install.sh))
 
 纯转发模式使用后算力截图，算力几乎无损耗。 
 
@@ -27,7 +27,7 @@ linux服务器一键安装脚本 bash <(curl -s -L https://ddl.ink/Cm5Q+)
 （如果遇到打不开管理界面，请开放服务器对应的端口）
 
 #Liunx-手动安装
-git clone https://github.com/Clindassss/minerproxy303
+git clone https://github.com/Clindassss/minerproxy
 cd minerproxy
 chmod a+x minerProxy_3.0.3_linux
 nohup ./minerProxy_3.0.3_linux & 

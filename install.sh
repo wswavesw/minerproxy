@@ -134,11 +134,11 @@ start_write_config() {
 
     changeLimit="n"
     if [ $(grep -c "root soft nofile" /etc/security/limits.conf) -eq '0' ]; then
-        echo "root soft nofile 60000" >>/etc/security/limits.conf
+        echo "root soft nofile 65535" >>/etc/security/limits.conf
         changeLimit="y"
     fi
     if [ $(grep -c "root hard nofile" /etc/security/limits.conf) -eq '0' ]; then
-        echo "root hard nofile 60000" >>/etc/security/limits.conf
+        echo "root hard nofile 65535" >>/etc/security/limits.conf
         changeLimit="y"
     fi
 
@@ -191,7 +191,7 @@ clear
 while :; do
     echo
     echo "-------- MinerProxy 一键安装脚本 by:MinerProxy--------"
-    echo "github下载地址:https://github.com/Clindassss/minerproxy303"
+    echo "github下载地址:https://github.com/Clindassss/minerproxy"
     echo
     echo " 1. 安装MinerProxy"
     echo
